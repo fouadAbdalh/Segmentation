@@ -35,22 +35,4 @@ venv\Scripts\activate     # Windows
 
 # Install dependencies
 pip install -r requirements.txt
-## File Structure
-chest-xray-segmentation/
-│
-├─ data/
-│  ├─ dataset.py
-│  ├─ train.py
-│  └─ test.py
-│
-├─ model/
-│  └─ unet.py
-│
-├─ engine/
-│  ├─ train.py
-│  └─ validate.py
-│
-├─ main.py
-├─ gradio_demo.py
-├─ requirements.txt
-└─ README.md
+
